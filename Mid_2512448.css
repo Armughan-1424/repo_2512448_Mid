@@ -1,16 +1,16 @@
 body{
-    background-color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-}
 
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
 
 header{
 
     background-color: black;
-    color: aliceblue;
-    padding: 6px;
+    color: rgb(134, 124, 124);
     text-align: center;
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 table{
@@ -19,17 +19,18 @@ table{
     border-radius: 4px;
 }
 
-td tr{
+tr td{
 
-    border: 3px solid red;
-    border-radius: 4px ;
-    padding: 6px;
+    border:2px solid rgb(166, 187, 50);
     text-align: center;
-    margin: auto
+    padding: 12px;
+    /* margin: auto; */
 }
 
 mark{
 
-    background-color: rgb(163, 212, 85) ;
+    background-color: lavender;
     color: black;
+    padding: 4px;
+    border-radius: 8px;
 }
